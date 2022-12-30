@@ -15,15 +15,9 @@ phpunit.xml export-ignore
 /.idea/* text eol=crlf
 
 # Configure diff output for .php and .phar files.
-*.blade.php diff=html
-*.twig diff=html
-*.latte diff=html
 *.css diff=css
 *.html diff=html
-*.md diff=markdown
-*.php diff=php
-
-*.phar -diff
+*.md diff=markdow
 
 #
 ## These files are binary and should be left untouched
